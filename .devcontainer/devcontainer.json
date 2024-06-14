@@ -21,8 +21,13 @@
 			"extensions": [
 				"ms-vscode.cpptools-extension-pack",
 				"ms-vscode.makefile-tools",
-				"maziac.dezog"
-			]
+				"maziac.dezog",
+				"maziac.asm-code-lens",
+				"maziac.binary-file-viewer"
+			],
+			"settings": {
+				"cmake.generator": "Unix Makefiles"
+			}
 		}
 	}
 
